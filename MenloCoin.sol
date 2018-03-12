@@ -2,12 +2,12 @@ pragma solidity ^0.4.11;
 
 import './IERC20.sol';
 
-contract MenloCoin is IERC20 {
+contract Plexus is IERC20 {
     
-    uint public constant _totalSupply = 1000000; 
+    uint public constant _totalSupply = 400000000; 
     
-    string public constant symbol = "MENLO";
-    string public constant name = "Menlo Coin";
+    string public constant symbol = "BLINK";
+    string public constant name = "Plexus";
     uint8 public constant decimals = 3; 
     
     mapping(address => uint256) balances;
