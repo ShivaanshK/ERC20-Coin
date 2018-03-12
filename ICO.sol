@@ -3,12 +3,12 @@ pragma solidity ^0.4.11;
 import './IERC20.sol';
 import './SafeMath.sol';
 
-contract MenloCoin is IERC20 {
+contract PLEXUS is IERC20 {
     
     uint public constant _totalSupply = 0; 
     using SafeMath for uint256;
-    string public constant symbol = "Plexus";
-    string public constant name = "Plexus";
+    string public constant symbol = "PLXS";
+    string public constant name = "PLEXUS";
     uint8 public constant decimals = 18; 
     uint256 public constant RATE = 1000;
     address public owner;
@@ -19,7 +19,7 @@ contract MenloCoin is IERC20 {
         createTokens();
     }
     
-    function MenloCoin() {
+    function Plexus() {
         balances[msg.sender] = _totalSupply;
     }
     
