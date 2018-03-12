@@ -7,8 +7,8 @@ contract MenloCoin is IERC20 {
     
     uint public constant _totalSupply = 0; 
     using SafeMath for uint256;
-    string public constant symbol = "MENLO";
-    string public constant name = "Menlo Coin";
+    string public constant symbol = "Plexus";
+    string public constant name = "Plexus";
     uint8 public constant decimals = 18; 
     uint256 public constant RATE = 1000;
     address public owner;
