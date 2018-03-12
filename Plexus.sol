@@ -13,7 +13,7 @@ contract PLEXUS is IERC20 {
     mapping(address => uint256) balances;
     mapping(address => mapping(address => uint256)) allowed;
     
-    function MenloCoin() {
+    function Plexus() {
         balances[msg.sender] = _totalSupply;
     }
     
